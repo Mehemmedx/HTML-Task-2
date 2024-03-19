@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html.task2</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <p>Salutation</p>
+            <select>
+                <option>None</option>
+            </select>
+            <p>
+                <label>First name:</label>
+                <input>
+            </p>
+            <p>
+                <label>Last name:</label>
+                <input>
+            </p>
+            <p>
+                <label>Gender:</label>
+                <input type="radio" id="m" name="g">
+                <label for="m">Male</label>
+                <input type="radio" id="f" name="g">
+                <label for="f">Female</label>                
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email" placeholder="Email">
+            </p>
+            <p>
+                <label>Date of birth:</label>
+                <input type="date">
+            </p>
+            <p>
+                <label>Adrdress:</label>
+                <br>
+                <textarea name="address" id="" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="submit">
+            </p>
+
+        </fieldset>
+        <br>
+        <h1>HTML Form</h1>
+        <p>
+            <label>First name:</label>
+            <input placeholder="Enter first name">
+        </p>
+        <p>
+            <label>Last name:</label>
+            <input placeholder="Enter last name">
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter email address">
+        </p>
+        <p>
+            <label>Phone:</label>
+            <input type="tel" placeholder="Enter phone number">
+        </p>
+        <p>
+            <label>Country</label>
+            <select>
+                <option>Choose a Country</option>
+            </select>
+        </p>        
+        <p>
+            <label>City</label>
+            <select>
+                <option>Choose a city</option>
+            </select>
+        </p>
+        <p>
+            <label>language(s):</label>            
+        </p>
+        <p>
+            <label for="En">En</label>
+            <input type="checkbox" id="En">
+            <label for="De">De</label>
+            <input type="checkbox" id="De">
+            <label for="Fr">Fr</label>
+            <input type="checkbox" id="Fr">
+            <label for="Ru">Ru</label>
+            <input type="checkbox" id="Ru">            
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+        <br>
+        <h1>Login</h1>
+        <p>
+            <label>Name:</label>
+            <input>
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email">
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password">
+        </p>
+        <p>
+            <label>Phone:</label>
+            <input type="tel">
+        </p>
+        <p> 
+            <label>Gender:</label>
+            <input type="radio" id="x2" name="x">
+            <label for="x2">Male</label>
+            <input type="radio"id="x" name="x">
+            <label for="x">Female</label>  
+        </p>
+        <p>
+            <label>Date of Birth:</label>
+            <select>
+                <option>Date</option>
+            </select>
+            <select>
+                <option>Month</option>
+            </select>
+            <select>
+                <option>Year</option>
+            </select>
+        </p>
+        <p>            
+            <input type="submit" value="Send">
+        </p>
+
+        <br>
+        <h1>My feedback from</h1>
+        <p>
+            <ul type="disc">
+            <li>Name: <input></li>            
+            </ul>
+        </p>
+        <p>
+            <ul type="disc">
+            <li>Email: <input type="email"></li>            
+            </ul>           
+        </p>
+        <p>
+            <ul>
+            <li>Password: <input type="password"></li>
+            </ul>
+        </p>
+        <p>
+            <li>Please check all the emotions that apply to you</li>
+            <ul>                
+            <li for="Angry">Angry:<input type="checkbox" id="Angry"name="bb"></li>            
+            <li for="Sad">Sad:<input type="checkbox" id="Sad" name="bb"></li>            
+            <li for="Happy">Happy:<input type="checkbox" id="Happy" name="bb"></li>            
+            <li for="Ambivalent">Ambivalent:<input type="checkbox"id="Ambivalent" name="bb"></li>
+            </ul>
+        </p>
+        <p>
+            <li>How satisfield were you with our servic?</li>
+            <ul>
+            <li for="very">Very satisfield:<input type="radio" id="very"></li>            
+            <li for="satis">Satisfield:<input type="radio"id="satis"></li>            
+            <li for="did">Didn't care:<input type="radio"id="did"></li>            
+            <li for="dissa">Dissatisfield:<input type="radio"id="dissa"></li>            
+            <li for="verydis">Very dissatisfied:<input type="radio"id="verydis"></li>            
+            </ul>            
+        </p>
+        <p>
+            <textarea name="" id="" cols="30" rows="5"></textarea>            
+        </p>
+        <p>
+            <li>Further comments</li>
+            <li>Bio photo: <input type="file"></li>
+            <li>Location visited: <select><option>Select Location</option></select></li>
+            <li><input type="submit"></li>            
+        </p>
+        <br>
+
+        <fieldset>
+            <legend><p>Login</p></legend>
+            <p>Username*</p>
+            <input type="">
+            <p>Password*</p>
+            <input type="password">            
+        </fieldset>
+        <fieldset>
+            <legend><p>Gender*</p></legend>
+            <label for="56">Male</label>
+            <input type="radio" id="56" name="gender3">
+            <label for="57">Famele</label>
+            <input type="radio"id=57 name="gender3">
+        </fieldset>
+        <fieldset>
+            <legend><p>Programming Skill</p></legend>
+            <input type="checkbox"id="97">
+            <label for="97">Java</label>
+            <input type="checkbox"id="98">
+            <label for="98">C++</label>
+            <input type="checkbox" id="99">
+            <label for="99">C#</label>
+        </fieldset>
+        <fieldset>
+            <legend><p>Country</p></legend>
+            <label>Chose a country </label>
+            <select><option>Azerbaijan</option></select>
+        </fieldset>
+        <p>
+            <textarea name="" id="" cols="30" rows="5"placeholder="Enter your comment here"></textarea>            
+        </p>
+        <p>
+            <input type="submit"value="SEND">
+            <input type="reset">
+        </p>
+        <br>
+        <p>
+            <fieldset>
+            <Legend><p>Personal Information</p></Legend>            
+                <label>Name:</label>
+                <input>
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email">
+            </p>
+            <p>
+                <label>Password:</label>
+                <input type="password">
+            </p>
+            <p>
+                <label>Phone:</label>
+                <input type="tel">
+            </p>
+            <p> 
+                <label>Gender:</label>
+                <input type="radio" id="11" name="44">
+                <label for="11">Male</label>
+                <input type="radio"id="12" name="44">
+                <label for="12">Female</label>  
+            </p>
+            <p>
+                <label>Date of Birth:</label>
+                <select>
+                    <option>Date</option>
+                </select>
+                <select>
+                    <option>Month</option>
+                </select>
+                <select>
+                    <option>Year</option>
+                </select>
+            </p>
+            <p>
+                <label>Country</label>
+            <select>
+                <option>Choose a Country</option>
+            </select>
+            </p>
+            </fieldset>
+            <fieldset>
+                <legend>Address</legend>
+                <label>Street:</label>
+                <input>
+                <label><p></p>City:</label>
+                <input>
+                <label><p></p>State:</label>
+                <input>
+                <label><p></p>Zip code</label>
+                <input>
+                <p></p>
+            </fieldset>
+            <fieldset>
+                
+                <legend>Other Information</legend>
+                <label>Comments:<label>
+                <textarea name="" id="" cols="30" rows="3"></textarea>
+                <br>
+                <br>
+                <label>I agree to the of service<input type="checkbox"></label>
+            </fieldset>
+        </p>
+        <p>
+            <br>
+            <input type="submit">
+        </p>
+        <p>
+            <form method="post">
+            <select name="" id="">
+                <option value="0" selected hidden>Choose the car</option>
+                <option value="1">Nissan</option>
+                <option value="2">Ford</option>
+                <option value="3" disabled>Lexus</option>
+                <option value="4">Audi</option>
+                <option value="5">Honda</option>
+                <option value="6">BMW</option>
+            </select>
+            
+            </form>
+            <form>
+            <select name="" id="">
+                <option selected hidden>Choose the product</option>
+                <optgroup label="Fruit">
+                    <option>Apple</option>
+                    <option>Orange</option>
+                    <option>Pear</option>
+                    <option>Grape</option>
+                    <option></option>
+                </optgroup>
+                <optgroup label="Vegetables">
+                    <option>Patato</option>
+                    <option>Tomato</option>
+                    <option>Carrot</option>
+                    <option>Onion</option>
+                </optgroup>
+                
+
+            </select>
+            </form>
+            
+        </p>
+        
+    </form>    
+
+    <br>
+    <table border="1"style="width: 100%">
+        <thead>
+            <tr>
+                <th rowspan="2">Headling</th>
+                <th>Students</th>
+                <th colspan="3">Detalis</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Roll namber</th>
+            </tr>           
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">Student list</td>
+                <td>1</td>
+                <td>Victor</td>
+                <td>Computer science</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kate</td>
+                <td>Law</td>
+                <td>2345</td>                
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Harry</td>
+                <td>Electronics</td>
+                <td>3456</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Clara</td>
+                <td>Architecture</td>
+                <td>2345</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <br>
+    <table border="1" style="height: 200px; width: 600px;" >
+        <thead>
+            <tr>
+                <th rowspan="3">A</th>
+                <th colspan="3" rowspan="2">B</th>
+                <th rowspan="3">C</th>
+                <th colspan="5">D</th>
+            </tr>
+            <tr>
+                <th colspan="2">O</th>
+                <th colspan="2">P</th>
+                <th rowspan="2">N</th>
+            </tr>
+            <tr>
+                <th>E</th>
+                <th>F</th>
+                <th>G</th>
+                <th>H</th>
+                <th>K</th>
+                <th>L</th>
+                <th>M</th>                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                   
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                   
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                   
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                   
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                   
+            </tr>
+        </tbody>
+    
+    </table>
+    <br>
+    <table border="1" widht="500px">
+        <thead>
+            <tr>      
+                <th>Day/Period</th>            
+                <th>1 9:30-10:20</th>            
+                <th>2 10:20-11:10</th>            
+                <th>3 11:10-12:00</th>            
+                <th>12:00-12:40</th>            
+                <th>4 12:40-1:30</th>            
+                <th>5 1:30-2:20</th>            
+                <th>6 2:20-3:10</th>            
+                <th>7 3:10-4:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>            
+                <td>Monday</td>            
+                <td>Eng</td>            
+                <td>Mat</td>            
+                <td>Che</td>            
+                <td rowspan="6">LUNCH</td>            
+                <td colspan="3">LAB</td>            
+                <td>Phy</td>            
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="3">LAB</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>SPORTS</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LIBRARY</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td>Eng</td>
+                <td>Phy</td>                
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td colspan="3">SEMINAR</td>
+                <td>SPORTS</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table border="1" widht="500px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Jobs</th>
+                <th>Working Experience</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Software Engineer</td>
+                <td>Data Analyst</td>
+                <td rowspan="2">5 Years</td>
+            </tr>
+            <tr>
+                <td>Ale</td>
+                <td colspan="2">Senior Web developer</td>                
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>Junior Tech Writer</td>
+                <td>Blogger</td>
+                <td>9 Months</td>
+            </tr>
+        </thead>
+    </table>
+    <br>
+    <h1>Computer System</h1>
+    <h3>1.Hardware</h3>
+    <ol type="i" start="1">        
+        <li>CPU</li>
+        <li>RAM</li>
+        <li>I/O Devices</li>
+    </ol>
+    <h3>2.Software</h3>
+    <ol type="A" start="a">
+        <li><b>Sytem Software</b></li>
+        <ul>
+            <ol type="a" start="a">
+                <li>Operating System</li>
+                <li>Device Drivers</li>
+            </ol>
+            
+        </ul>
+        <li><b>Application Software</b></li>
+        <ol type="a" start="a">
+            <li>Word Processor</li>
+            <li>SpreadSheets</li>
+            <li>Graphic Software etc.</li>
+        </ol>
+    </ol>
+
+
+</body>
+</html>
